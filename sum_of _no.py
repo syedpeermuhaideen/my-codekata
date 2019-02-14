@@ -1,5 +1,5 @@
 nm = int(raw_input())
- b = nm+1
- c = nm*b
- d = c/2
- print(d)
+ k = nm+1
+ l = nm*k
+ v = l/2
+ print(v)
