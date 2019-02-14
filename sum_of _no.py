@@ -1,3 +1,5 @@
-n = int(raw_input())
-a = 1
-print(n+a)
+nm = int(raw_input())
+ b = nm+1
+ c = nm*b
+ d = c/2
+ print(d)
