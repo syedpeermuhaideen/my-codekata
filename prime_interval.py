@@ -1,4 +1,4 @@
-lower,upper=input().split(" ")
+lower,upper=raw_input().split(" ")
 lower = int(lower)
 upper = int(upper)
 
@@ -10,4 +10,4 @@ for num in range(lower,upper):
            if (num % i) == 0:
                break
        else:
-           print(num,end=" ")
+           print(num),
