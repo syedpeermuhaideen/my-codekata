@@ -1,5 +1,6 @@
-a = int(input())
-b = int(input())
+a,b = (raw_input()).split(" ")
+a=int(a)
+b=int(b)
 for i in range(a,b + 1):
    d = len(str(i))
    sum = 0
