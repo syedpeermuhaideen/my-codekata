@@ -1,7 +1,7 @@
 a,b = (raw_input()).split(" ")
 a=int(a)
 b=int(b)
-for i in range(a,b + 1):
+for i in range(a,b):
    d = len(str(i))
    sum = 0
    c = i
@@ -10,4 +10,4 @@ for i in range(a,b + 1):
        sum += e ** d
        c //= 10
    if i == sum:
-       print(i)
+       print(i),
