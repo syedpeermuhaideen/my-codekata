@@ -1,5 +1,5 @@
-z = int(raw_input())
+k= int(raw_input())
 factorial = 1
-for i in range(1,z+ 1):
+for i in range(1,k+ 1):
   factorial = factorial*i
 print(factorial)
