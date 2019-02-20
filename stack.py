@@ -16,7 +16,7 @@ while True:
         if len(a)==0:
             print("it is a empty list")
         else:    
-            a.pop()
+            a.pop()#for queue a.pop(0)
             print("now your list is",a)
     elif customerchoice==3:
         print("you are select to",ser[customerchoice-1])  
